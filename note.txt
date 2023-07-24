@@ -1,0 +1,23 @@
+we need render engine to render html
+so, we will EJS here
+>> npm i ejs
+---
+
+rename html to ejs
+---
+
+install ejs language support extension
+---
+
+<!-- "<% injected text and = to page" -->
+---
+
+res.render("index", {text1234:""})
+the heofon says <%= locals.text || "default" %>
+
+locals.text locates variable and injects its value
+exact match navaye ne vo
+
+if text xaina vane default value linxa
+---
+
