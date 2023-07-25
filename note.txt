@@ -21,3 +21,5 @@ exact match navaye ne vo
 if text xaina vane default value linxa
 ---
 
+codes are executed from top to bottom so make
+sure to place static routes in top

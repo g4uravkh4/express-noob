@@ -13,7 +13,9 @@ app.get("/",(req, res) => {
 // res.download('server.js')
 
 res.render("index", {text:"-hello"})
-
 })
+
+const userRouter = require('./routes/users') //imported here
+app.use('/users', userRouter) //using this to link router
 
 app.listen(3000)
